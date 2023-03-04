@@ -138,12 +138,17 @@ color: #404BBF;
 }
 
 .hero-section{
+    max-width: 1440px;
+    margin: 0 auto;
     background: #2E2F42;
     padding: 188px 0;
-
+    flex-grow: 1;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
+    url(../images/people-ofice.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-
-
 
 .section-text{
     padding: 120px 0;
@@ -154,11 +159,38 @@ color: #404BBF;
     gap: 24px;
 }
 
-
-
 .section-team{
    background: #F4F4FD;
    padding-bottom: 120px;
+}
+
+.team-social-list {
+ display: flex;
+ justify-content: center;
+ gap: 24px;
+}
+
+.team-social-item {
+  width: 40px;
+  height: 40px;
+}
+
+.team-social-link {
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   background:#4D5AE5;;
+}
+
+.team-social-link:hover {
+  background: #404BBF;
+}
+
+.team-social-link:focus {
+    background: #404BBF;
 }
 
 .main-title{
@@ -286,7 +318,7 @@ color: #404BBF;
         font-size: 16px;
         line-height: 1.5;
         color: #434455;
-        padding-bottom: 32px;
+        padding-bottom: 8px;
 }
 
 .main-description {
