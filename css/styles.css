@@ -161,7 +161,7 @@ color: #404BBF;
 
 .section-team{
    background: #F4F4FD;
-   padding-bottom: 120px;
+   padding-bottom: 110px;
 }
 
 .team-social-list {
@@ -191,9 +191,13 @@ background-color: #404BBF;
 }
 
 .hidden-section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
     background-color: #F4F4FD;
     border-radius: 4px;
-    padding: 24px 100px;
     margin-bottom: 8px;
 }
 
@@ -204,6 +208,10 @@ background-color: #404BBF;
     top: 24px;
 }
 
+.section-elements {
+    padding-bottom: 120px;
+}
+
 .text-customers {
     font-family: inherit;
     font-weight: 700;
@@ -212,7 +220,7 @@ background-color: #404BBF;
     text-align: center;
     text-transform: capitalize; 
     margin-bottom: 72px;
-    margin-top: 130px;
+    padding-top: 130px;
 }
 
 .section-list-element {
@@ -220,7 +228,6 @@ background-color: #404BBF;
    justify-content: center;
    padding: 0px;
    gap: 24px;
-   margin-bottom: 120px;
 }
 
 .section-link-element {
@@ -236,7 +243,7 @@ background-color: #404BBF;
 
 .section-icon:is(:hover, :focus) {
    color:#404BBF;
-   border: 1px solid #404BBF;
+   border-color: #404BBF;
 }
 
 .section-icon {
@@ -271,7 +278,7 @@ background-color: #404BBF;
         letter-spacing: 0.04em;
         cursor: pointer;
         color: #FFFFFF;
-        padding: 16px 32px;
+        padding: 12px 24px;
         gap: 10px;
 }
 
@@ -333,18 +340,18 @@ background-color: #404BBF;
 
 .title-text-footer {
      font-family: 'Roboto';
+     font-weight: 500;
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
      color: #FFFFFF;
-     padding-bottom: 16px;
+     margin-bottom: 16px;
 }
 
 .social-foter-list {
     display: flex;
     justify-content: center;
     gap: 16px;
-    padding-bottom: 32px;
 }
 
 .social-item-footer {
@@ -417,7 +424,7 @@ background-color: #404BBF;
         font-size: 16px;
         line-height: 1.5;
         color: #434455;
-        padding-bottom: 8px;
+        margin-bottom: 8px;
 }
 
 .main-description {
@@ -465,13 +472,14 @@ background-color: #404BBF;
     background: #404BBF;
     color: #FFFFFF;
     border-color: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 
 }
 
 .btn-main:focus {
     background: #404BBF;
     color: #ffffff;
-
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .list-two {
